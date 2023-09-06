@@ -16,8 +16,8 @@
     "negotiator": "^0.6.3",
     "next": "13.4.5",
     "postcss": "8.4.27",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "16.3.0",
+    "react-dom": "16.3.0",
     "react-icons": "^4.10.1",
     "react-typed": "^1.2.0",
     "tailwindcss": "3.3.3"
