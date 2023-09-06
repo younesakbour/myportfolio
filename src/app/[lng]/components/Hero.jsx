@@ -6,7 +6,7 @@ export default function Hero(props) {
     const webDeveloper = props.lng.introduce_3;
 
     return (
-        <div id='home' className='xl:mx-40 md:mx-24 mb-28 md:mb-0 relative'>
+        <div id='home' className='xl:mx-32 md:mx-24 mb-28 md:mb-0 relative'>
             {/* Desktop Hero */}
             <div className="w-full pt-10 hidden md:flex justify-between items-center h-screen relative z-20">
                 <div className="font-ubuntu font-medium uppercase space-y-4 flex flex-col">
