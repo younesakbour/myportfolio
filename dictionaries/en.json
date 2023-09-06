@@ -1,0 +1,41 @@
+{
+    "lang" : "en",
+
+    "header": {
+        "home": "home",
+        "about": "about",
+        "projects": "projects",
+        "contact": "contact"
+    },
+
+    "hero": {
+        "introduce_1": "Hi, I'm",
+        "introduce_2": "A",
+        "introduce_3": "Web Developer",
+        "more_button": "More"
+    },
+
+    "about": {
+        "aboutme": "About me",
+        "excel": "I excel at",
+        "section_1": "Hi, my name is Younes Akbour. I'm 22 years old, and I'm a web developer from Morocco. I started learning web development in 2020, and in 2021, I enrolled in a public training institute called OFPPT (Office of Vocational Training and Employment Promotion) in the section of digital development with the option of web full-stack. After two years, I got my diploma.",
+        "section_2": "I enjoy building a web front-end or web app and learning new features of frameworks, I even used to design a web with Figma.",
+        "section_3": "My preferred frameworks are Next.JS 13, React, and Laravel 9.",
+        "resume": "Download my Resume"
+    },
+
+    "projects": {
+        "projects": "Projects"
+    },
+
+    "contact": {
+        "contactme": "Contact Me",
+        "name": "NAME",
+        "subject": "SUBJECT",
+        "send" : "SEND",
+        "send_success" : "Thank you! Your message has been sent successfully. I'll be in touch shortly.",
+        "send_failed" : "Oops! Something went wrong with your message submission. Please try again later."
+    },
+
+    "footer" : "All Rights Reserved"
+}

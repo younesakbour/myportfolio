@@ -1,27 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Kalam:wght@400;700&family=Roboto:wght@400;700;900&family=Ubuntu:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #fcfdff;
+}
+
+.active {
+  border-left: solid 4px #067cd0;
+  color: #067cd0;
+  letter-spacing: 0.1em;
+}
+
+.activemb {
+  background-color: #0064ac;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 770px) {
+  .navup {
+  background-color: #001b3b;
+}
+}
+
+
+.first-block {
+  animation: first_block ease-in-out 3s infinite;
+  -webkit-animation: first_block ease-in-out 3s infinite;
+}
+
+.second-block {
+  animation: second_block ease-in-out 3s infinite;
+  -webkit-animation: second_block ease-in-out 3s infinite;
+}
+
+.block-mb {
+  animation: block_mb ease-in-out 3s infinite;
+  -webkit-animation: block_mb ease-in-out 3s infinite;
+}
+
+@media screen and (max-width: 1279px) {
+  .first-block {
+    animation: first_block_md ease-in-out 3s infinite;
+    -webkit-animation: first_block_md ease-in-out 3s infinite;
+}
+  .second-block {
+    animation: second_block_md ease-in-out 3s infinite;
+    -webkit-animation: second_block_md ease-in-out 3s infinite;
+}
+}
+
+@keyframes first_block_md {
+  0% { top: 46%; }
+  50% { top: 36%; }
+  100% { top: 46%; }
+}
+
+@keyframes second_block_md {
+  0% { top: 36%; }
+  50% { top: 46%; }
+  100% { top: 36%; }
+}
+
+@keyframes first_block {
+  0% { top: 43%; }
+  50% { top: 26%; }
+  100% { top: 43%; }
+}
+
+@keyframes second_block {
+  0% { top: 26%; }
+  50% { top: 43%; }
+  100% { top: 26%; }
+}
+
+@keyframes block_mb {
+  0% { top: 80%; }
+  50% { top: 63%; }
+  100% { top: 80%; }
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ACD0EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1870B0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #217dbf;
 }
