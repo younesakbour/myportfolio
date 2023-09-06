@@ -4,9 +4,9 @@ import {BiSolidDownArrow} from 'react-icons/bi'
 
 export default function Projects(props) {
     return(
-        <div id='projects' className="xl:mx-40 md:mx-24 md:pt-28 mx-6 space-y-10">
+        <div id='projects' className="xl:mx-40 md:mx-24 md:pt-20 mx-6 space-y-10">
             <div className="flex items-center text-[#0082E0] space-x-2">
-                <h3 className="font-ubuntu font-bold uppercase md:text-3xl text-2xl">{props.lng.projects.projects}</h3>
+                <h3 className="font-ubuntu font-bold uppercase text-2xl">{props.lng.projects.projects}</h3>
                 <div><BiSolidDownArrow size={28} /></div>
             </div>
             <div>

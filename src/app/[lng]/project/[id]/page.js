@@ -39,17 +39,17 @@ export default function ProjectAbout() {
                     <div><img src={project.webMobile} alt="" /></div>
                 </div>
                 <div className='md:w-4/5 w-full flex justify-between items-center md:px-4'>
-                    <p className='md:text-4xl text-xl uppercase font-josefin font-bold tracking-widest'>{project.name}</p>
-                    <a className='uppercase md:rounded-lg rounded-md duration-300 ease-in-out tracking-[0.2em] hover:tracking-[0.3em] font-bold md:text-base text-sm md:px-12 px-4 py-2 bg-black hover:bg-white hover:text-black' href={project.link} target="_blank" rel="noopener noreferrer">Visit</a>
+                    <p className='md:text-3xl text-xl uppercase font-josefin font-bold tracking-widest'>{project.name}</p>
+                    <a className='uppercase md:rounded-lg rounded-md duration-300 ease-in-out tracking-[0.2em] hover:tracking-[0.3em] font-bold text-sm md:px-12 px-4 py-2 bg-black hover:bg-white hover:text-black' href={project.link} target="_blank" rel="noopener noreferrer">Visit</a>
                 </div>
                 <div className='md:w-4/5 space-y-8'>
-                    <p className='md:text-xl font-josefin tracking-wide mb-16'>{project.about}</p>
+                    <p className='md:text-lg font-josefin tracking-wide mb-16'>{project.about}</p>
                     {
                     project.keyFeatures !== ""
                     ? Object.keys(project.keyFeatures).map((e, index) =>
                     <div>
-                        <h4 className='md:text-2xl animate-pulse rounded-t-lg bg-white text-black py-2 px-4 font-josefin font-bold tracking-wide'>{e}:</h4>
-                        <p className='md:text-xl rounded-b-lg bg-black py-4 w-fit md:px-0 px-4 md:pl-8 font-kalam tracking-wide'>{Object.values(project.keyFeatures)[index]}</p>
+                        <h4 className='md:text-xl animate-pulse rounded-t-lg bg-white text-black py-2 px-4 font-josefin font-bold tracking-wide'>{e}:</h4>
+                        <p className='rounded-b-lg bg-black py-4 w-fit px-4 md:px-8 font-kalam tracking-wide'>{Object.values(project.keyFeatures)[index]}</p>
                     </div> )
                     : ""
                     }

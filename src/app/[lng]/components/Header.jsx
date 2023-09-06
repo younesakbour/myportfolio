@@ -13,7 +13,7 @@ export default function Header(props) {
     return (
         <div id='header' className='xl:mx-40 md:mx-24 z-50 absolute duration-300 ease-in-out'>
             {/* Desktop */}
-            <div className="hidden md:flex duration-300 ease-in-out fixed left-0 w-full justify-around uppercase py-12 text-lg font-ubuntu font-medium tracking-wide text-[#51B6FF]">
+            <div className="hidden md:flex duration-300 ease-in-out fixed left-0 w-full justify-around uppercase py-12 font-ubuntu font-medium tracking-wide text-[#51B6FF]">
                 <ul className="flex navdesktop space-x-6">
                     <li><a href="#home" className='active duration-100 ease-in-out hover:border-l-4 border-[#067cd0] px-2 hover:text-[#067cd0]'>{props.lng.header.home}</a></li>
                     <li><a href="#about" className='duration-100 ease-in-out hover:border-l-4 border-[#067cd0] px-2 hover:text-[#067cd0]'>{props.lng.header.about}</a></li>

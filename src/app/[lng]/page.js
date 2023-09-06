@@ -48,7 +48,7 @@ export default async function Home({params}) {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.offsetHeight;
 
-        if (scrollPosition >= sectionTop/1.2 && scrollPosition <= sectionTop + sectionHeight) {
+        if (scrollPosition >= sectionTop/1.1 && scrollPosition <= sectionTop + sectionHeight) {
           for (let i = 0; i < navdesktop.children.length; i++) {
             if(navdesktop.children[i].firstChild.attributes.href.value === `#${section.attributes.id.value}`) {
               navdesktop.children[i].firstChild.classList.add('active');
