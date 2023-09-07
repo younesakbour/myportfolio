@@ -60,6 +60,6 @@ export function middleware(request) {
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`, but allowing images in the "public/static/images" directory
   matcher: [
-    '/((?!api|_next/static|_next/images|.*\\.(?:png|jpg|jpeg|gif|svg)|favicon.ico).*)',
+    '/((?!api|_next/static|_next/images|.*\\.(?:png|jpg|jpeg|gif|svg|pdf)|favicon.ico).*)',
   ],
 };
