@@ -36,7 +36,7 @@ export default function About(props) {
             </div>
             <div className='xl:mx-40 md:mx-24 mx-6 flex justify-end'>
                 <div className='relative bg-[#1870B0] xl:w-[24%] sm:w-[36%] w-[66%] h-[44px]'>
-                    <a className='absolute uppercase w-full border-4 duration-300 ease-in-out hover:bg-[#129BFF] top-[-20%] hover:top-0 hover:left-0 left-[-5%] text-sm border-[#129BFF] p-2 font-ubuntu font-bold tracking-wide text-white' href={props.lng.download} download="cv">{props.lng.resume}</a>
+                    <a className='absolute text-center uppercase w-full border-4 duration-300 ease-in-out hover:bg-[#129BFF] top-[-20%] hover:top-0 hover:left-0 left-[-5%] text-sm border-[#129BFF] p-2 font-ubuntu font-bold tracking-wide text-white' href={props.lng.download} download="cv">{props.lng.resume}</a>
                 </div>
             </div>
         </div>
