@@ -21,7 +21,8 @@
         "section_1": "Salut, je m'appelle Younes Akbour. J'ai 22 ans, et je suis un développeur web du Maroc. J'ai commencé à apprendre le développement web en 2020, et en 2021, je me suis inscrit dans un institut de formation public appelé l'OFPPT (Office de la Formation Professionnelle et de la Promotion du Travail) dans la section du développement numérique avec l'option web full-stack. Après deux années d'études, j'ai obtenu mon diplôme.",
         "section_2": "J'apprécie la création de l'interface frontale d'un site web ou d'une application web, ainsi que l'apprentissage des nouvelles fonctionnalités des frameworks. J'ai même l'habitude de concevoir des interfaces web avec Figma.",
         "section_3": "Mes frameworks préférés sont Next.js 13, React et Laravel 9.",
-        "resume": "Télécharger mon CV"
+        "resume": "Télécharger mon CV",
+        "download" : "/static/images/french_cv.pdf"
     },
 
     "projects": {

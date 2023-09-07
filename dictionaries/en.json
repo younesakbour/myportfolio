@@ -21,7 +21,8 @@
         "section_1": "Hi, my name is Younes Akbour. I'm 22 years old, and I'm a web developer from Morocco. I started learning web development in 2020, and in 2021, I enrolled in a public training institute called OFPPT (Office of Vocational Training and Employment Promotion) in the section of digital development with the option of web full-stack. After two years, I got my diploma.",
         "section_2": "I enjoy building a web front-end or web app and learning new features of frameworks, I even used to design a web with Figma.",
         "section_3": "My preferred frameworks are Next.JS 13, React, and Laravel 9.",
-        "resume": "Download my Resume"
+        "resume": "Download my Resume",
+        "download" : "/static/images/english_cv.pdf"
     },
 
     "projects": {
