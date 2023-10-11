@@ -11,7 +11,7 @@ export const metadata = {
 export default function ProjectLayout({ children }) {
     return (
     <html>
-        <body className={`${inter.className} bg-[#294180]`}>
+        <body className={`${inter.className}`}>
             {children}
         </body>
     </html>

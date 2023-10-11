@@ -16,6 +16,17 @@ export const data_en = [
         link: "https://younesakbour.github.io/aroma_avenue/",
         moreAbout: ""
     },
+    {
+        id: 2,
+        webDesktop : "/static/images/ProjectDesktop_2.png",
+        tools : ["NextJs", "Typescript", "Tailwind Css"],
+        about : 'Tic Tac Toe, also known as Noughts and Crosses or Xs and Os, is a classic two-player strategy game typically played on a 3x3 grid. The objective of the game is to be the first player to form a straight line of their symbol, which can be an "X" or an "O," either horizontally, vertically, or diagonally.',
+        webMobile : "/static/images/ProjectMobile_2.png",
+        name: 'Tic Tac Toe',
+        keyFeatures: "",
+        link: "https://mytictactoegame.vercel.app",
+        moreAbout: ""
+    },
 ]
 
 export const data_fr = [
@@ -34,6 +45,17 @@ export const data_fr = [
             "Navigation multi-pages": "La page de destination est divisée en cinq sections : Accueil, À propos de nous, Avis, Menu et Contact. Cette approche segmentée permet aux visiteurs d'explorer facilement les différentes facettes des offres d'Aroma Avenue.",
         },
         link: "https://younesakbour.github.io/aroma_avenue/",
+        moreAbout: ""
+    },
+    {
+        id: 2,
+        webDesktop : "/static/images/ProjectDesktop_2.png",
+        tools : ["NextJs", "Typescript", "Tailwind Css"],
+        about : 'Tic Tac Toe, également connu sous le nom de "Noughts and Crosses" ou "Xs and Os", est un jeu de stratégie à deux joueurs classique qui se joue généralement sur une grille de 3x3. L\'objectif du jeu est d\'être le premier joueur à former une ligne droite de son symbole, qui peut être un "X" ou un "O", soit horizontalement, verticalement ou en diagonale.',
+        webMobile : "/static/images/ProjectMobile_2.png",
+        name: 'Tic Tac Toe',
+        keyFeatures: "",
+        link: "https://mytictactoegame.vercel.app",
         moreAbout: ""
     },
 ]

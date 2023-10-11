@@ -29,7 +29,7 @@ export default function ProjectAbout() {
     }, [])
 
     return (
-        <div className='xl:mx-40 md:mx-24 mx-6 my-6 mb-16 text-white'>
+        <div className='bg-[#294180] h-full w-full xl:px-40 md:px-24 px-6 py-6 pb-16 text-white'>
             <div>
                 <Link className='flex font-josefin font-bold items-center tracking-widest uppercase duration-200 ease-in-out text-white hover:text-sky-200' href={path}><VscArrowSmallLeft size={66} />{home}</Link>
             </div>
